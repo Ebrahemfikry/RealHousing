@@ -1,0 +1,325 @@
+header{
+    background: url(../images/banner22.jpg) center/cover fixed;
+    height: 60vh;
+}
+header nav{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.orang{
+    color: #f80;
+}
+.bg-orang{
+    background-color: #f80;
+    color: #fff;
+    font-size: 18px;
+}
+.bi-brightness-high{
+    display: none;
+}
+header .info{
+    text-align: center;
+}
+header .info span{
+    color: rgb(54, 50, 50);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+header .info h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    header .info{
+        padding-top: 30%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    header .info{
+        padding-top:20%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    header .info{
+        padding-top: 10%;
+    }
+}
+/* end header ############################ */
+.content .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 70%;
+}
+.box1 .card{
+    overflow: hidden;
+    width: 350px;
+}
+.box1 .card img{
+    transition: all 1s;
+    height: 250px;
+}
+.box1 img:hover{
+    transform: scale(1.1);
+}
+.box2{
+    width: 30%;
+    position: relative;
+}
+.box2 .lastest .box{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2 .lastest img{
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.box2 .lastest .info h4{
+    font-size: 20px;
+}
+.box2 .lastest .box{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box2 .ul {
+    margin-top: 70px;
+}
+.box2 .ul ul li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box2 .ul ul li:hover{
+    color: #f50;
+}
+.box2 .start{
+    background: url(../images/d1.jpg) no-repeat center/cover;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.box2 .start h2{
+    color:#fff;
+}
+.box2 .agents{
+    margin-top: 70px;
+}
+.box2 .agents .box{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2 .agents img{
+    border-radius: 10px;
+    width: 100px;
+    margin-right: 20px;
+}
+.box2 .buttons{
+    margin-top: 100px;
+}
+.box2 .buttons a{
+    font-size: 20px;
+    width: 100px
+}
+.box2 h2{
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .content .container{
+        flex-direction: column;
+    }
+    .box1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .box1 .card{
+        width: 100%;
+        margin: 20px;
+    }
+    .box2{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .content .container{
+        flex-direction: column;
+    }
+    .box1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .box1 .card{
+        width: 100%;
+        margin: 20px;
+    }
+    .box2{
+        margin-top: 100px;
+        width: 60%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .box1 .card{
+        flex-flow: row wrap;
+        width: 40%;
+    }
+    .box2{
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px){
+    .box1 .card{
+        flex-flow: row wrap;
+        width: 45%;
+    }
+    .box2{
+        margin-top: 100px;
+        width: 40%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .content .container{
+        flex-direction: row;
+    }
+    .box1 {
+        margin-top: 150px;
+        width: 70%;
+    }
+    .box1 .card{
+        width: 350px;
+        margin: 20px;
+    }
+    .box2{
+        margin-top: 0px;
+        width: 30%;
+        text-align: left;
+    }
+}
+/* end cards ############################## */
+
+footer{
+    padding: 30px 0 10px;
+    background-color: rgb(17, 17, 17);
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .container .box{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+footer .container .box h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer .container .box p{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 20px;
+}
+footer .container .box p:hover{
+    color: #f50;
+}
+footer .container .box .links i{
+    background-color: rgb(223, 77, 4);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer .container .box .links i:hover{
+    color: #000;
+}
+footer .container .box ul{
+    list-style: disclosure-closed;
+}
+footer .container .box ul li{
+    margin: 10px 0;
+    color: #999;
+    cursor: pointer;
+}
+footer .container .box ul li:hover{
+    color: #f80;
+}
+footer .end{
+    text-align: center;
+    color: #777;
+}
+footer .end span{
+    text-align: center;
+    color: #f80;
+}
+@media only screen and (max-width: 600px) {
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer .container{
+        text-align: center;
+        flex-direction: column
+    }
+    footer .container .box{
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+    footer .container .big{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    footer .container{
+        text-align: center;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}

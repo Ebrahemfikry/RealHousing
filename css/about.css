@@ -1,0 +1,459 @@
+header{
+    background: url(../images/banner22.jpg) center/cover fixed;
+    height: 60vh;
+}
+header nav{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.orang{
+    color: #f80;
+}
+.bg-orang{
+    background-color: #f80;
+    color: #fff;
+    font-size: 18px;
+}
+.bi-brightness-high{
+    display: none;
+}
+header .info{
+    text-align: center;
+}
+header .info span{
+    color: rgb(54, 50, 50);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+header .info h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    header .info{
+        padding-top: 30%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    header .info{
+        padding-top:20%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    header .info{
+        padding-top:10%;
+    }
+}
+/* end header ############################ */
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+/* end flex ##############################3 */
+.Local{
+    padding: 70px 0;
+    background-color: rgb(253, 252, 252);
+}
+.Local .container,
+.Local .container .box .ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Local .container .box{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+.Local .container .box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Local .container .box span{
+    color: #777;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Local .container .box h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+}
+.Local .container .box p{
+    color: #777;
+    font-size: 18px;
+}
+.Local .container .box li{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #999;
+
+}
+.Local .container .box li::marker{
+    content: "\2714";
+    color: #f80;
+}
+@media only screen and (max-width: 600px) {
+    .Local .container,
+    .Local .container .box .ul{
+        flex-direction: column;
+    }
+    .Local .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Local .container,
+    .Local .container .box .ul{
+        flex-direction: column;
+    }
+    .Local .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Local .container .box .ul{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Local .container,
+    .Local .container .box .ul{
+        flex-direction: row;
+    }
+    .Local .container .box{
+        width: 100%;
+        margin: 20px;
+        text-align: left;
+    }
+}
+/* end local ############################# */
+.Paying{
+    padding: 70px 0;
+    background-color: rgb(243, 243, 243);
+}
+.Paying .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Paying .container .box{
+    width: 50%;
+    margin: 20px;
+}
+.Paying .container .img{
+    width: calc(50% / 2);
+    margin: 20px;
+}
+.Paying .container .box span{
+    color: #777;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Paying .container .box h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 0 15px;
+}
+.Paying .container .box p{
+    color: #777;
+    font-size: 18px;
+}
+.Paying .container .box img{
+    width: 100%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .Paying .container
+    {
+        flex-direction: column;
+    }
+    .Paying .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Paying .container
+    {
+        flex-direction: column;
+    }
+    .Paying .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Paying .container{
+        flex-direction: row;
+    }
+    .Paying .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+}
+
+/* end paying ###################################### */
+.core{
+    padding: 70px 0;
+    background-color: rgb(253, 252, 252);
+}
+.core .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.core .container .box{
+    width: 50%;
+    margin: 20px;
+}
+.core .container .box span{
+    color: #777;
+    font-size: 16px;
+    font-weight: 600;
+}
+.core .container .box h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 0 15px;
+}
+.core .container .box p{
+    color: #777;
+    font-size: 18px;
+}
+.core .container .box .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.core .container .box .progress{
+    margin-bottom: 20px;
+    height: 15px;
+}
+.core .container .box .progress .progress-bar{
+    background-color: rgb(255, 60, 0);
+}
+.core .container .box h3{
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .core .container
+    {
+        flex-direction: column;
+    }
+    .core .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .core .container
+    {
+        flex-direction: column;
+    }
+    .core .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .core .container{
+        flex-direction: row;
+    }
+    .core .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+}
+/* end care ########################################## */
+.worker{
+    padding: 70px 0;
+    background-color: rgb(243, 243, 243);
+}
+.worker .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.worker .container .box{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.worker .container .box .link{
+    margin-top: 250px;
+    text-align: center;
+    display: none;
+}
+.worker .container .box:hover .link{
+    display: block;
+}
+.worker .container .box .link i{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 20px;
+}
+.worker .container .box1{
+    background: url(../images/team1.jpg) center/cover;
+}
+.worker .container .box2{
+    background: url(../images/team2.jpg) center/cover;
+}
+.worker .container .box3{
+    background: url(../images/team3.jpg) center/cover;
+}
+@media only screen and (max-width: 600px) {
+    .worker .container
+    {
+        flex-direction: column;
+    }
+    .worker .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .worker .container
+    {
+        flex-direction: column;
+    }
+    .worker .container .box{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .worker .container{
+        flex-direction: row;
+    }
+    .worker .container .box{
+        width: 100%;
+        margin: 20px;
+        text-align: left;
+    }
+}
+/* end worker ###################################### */
+
+footer{
+    padding: 30px 0 10px;
+    background-color: rgb(17, 17, 17);
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .container .box{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+footer .container .box h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer .container .box p{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 20px;
+}
+footer .container .box p:hover{
+    color: #f50;
+}
+footer .container .box .links i{
+    background-color: rgb(223, 77, 4);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer .container .box .links i:hover{
+    color: #000;
+}
+footer .container .box ul{
+    list-style: disclosure-closed;
+}
+footer .container .box ul li{
+    margin: 10px 0;
+    color: #999;
+    cursor: pointer;
+}
+footer .container .box ul li:hover{
+    color: #f80;
+}
+footer .end{
+    text-align: center;
+    color: #777;
+}
+footer .end span{
+    text-align: center;
+    color: #f80;
+}
+@media only screen and (max-width: 600px) {
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer .container{
+        text-align: center;
+        flex-direction: column
+    }
+    footer .container .box{
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer .container{
+        text-align: center;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+    footer .container .big{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    footer .container{
+        text-align: center;
+    }
+    footer .container .box{
+        width: 200px;
+    }
+}
